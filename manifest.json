@@ -1,0 +1,24 @@
+{
+
+  "manifest_version": 2,
+  "name": "Local Newtab Page",
+  "description": "Opens a local page when a new tab is opened.",
+  "homepage_url": "https://github.com/compupro/local-newtab-page",
+  "author": "compupro",
+  "version": "1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "chrome_settings_overrides": {},
+  "chrome_url_overrides": {
+    "newtab": "newtab-page/homepage.html"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "local-newtab-page@compupro.github.io",
+      "strict_min_version": "57.0"
+    }
+  }
+
+}
