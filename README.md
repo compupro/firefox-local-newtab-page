@@ -6,7 +6,7 @@ Extensions on the Firefox marketplace are unable to set new tab pages to a local
 
 To load the extension, you should put the extension (including your new tab page) in a zip file and sign it with Mozilla Add-on Developer Hub. Then you can use the "Install Add-ons from file" option in `about:addons` to load the XPI.
 
-If you don't want an extension, the following might work for you, but will fail if an extension opens a new tab (like vertical tab bar). Just edit or create your `mozilla.cfg`.
+If you don't want an extension, the following might work for you, but will fail if an extension opens a new tab (like vertical tab bar). Just follow the steps [here](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Enterprise_deployment_before_60) and put the code into `mozilla.cfg`.
 ```javascript
 // mozilla.cfg needs to start with a comment line var /* set new tab page */
 try {
